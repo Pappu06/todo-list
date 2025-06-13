@@ -1,4 +1,4 @@
-import TodoItem from "./TodoItem";
+import TodoItem from "..components/TodoItem";
 
 export default function TodoList({ todos, onDelete, onToggle }) {
   if (todos.length === 0) {
